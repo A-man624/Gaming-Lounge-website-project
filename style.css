@@ -1,0 +1,212 @@
+#wrapper
+{
+    background-image: linear-gradient(to right, #12126C, #7878C9);
+    background-repeat: no-repeat;
+}
+body 
+{
+    background-color: #FFFFFF;
+    color: black; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    background-color: #E6A634; 
+    color: #212188; 
+    text-align: center;
+}
+header a { text-decoration: none; }
+header a:link { color: #212188; }
+header a:visited { color: #212188; }
+header a:hover { color: #7878C9; }
+
+nav 
+{
+    font-weight: bold;
+    padding: 0;
+    font-size: 120%;
+    text-align: center;
+}
+nav a { text-decoration: none; }
+nav a:link { color: #C38514; }
+nav a:visited { color: #C38514; }
+nav a:hover{ color: #FFD486; }
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#BackgroundImage
+{
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(Home_Background.jpg);
+    
+    color:#E6C834;
+    text-shadow: 1px 1px #986503;
+    text-align:center;
+    padding: 150px;
+    font-size: 350%;
+    font-weight: bold;
+}
+.ImagesContainer
+{
+    display: flex;
+}
+.Image
+{
+    padding: 50px;
+    flex: 33%;
+}
+.Image img
+{
+    height: 450px;
+    width: 100%;
+}
+.Image p
+{
+    color: #E6A634;
+    text-align: center;
+    font-size: 100%;
+}
+.Image a:link { color: #C38514; }
+.Image a:visited { color: #C38514; }
+.Image a:hover{ color: #FFD486; }
+
+.TextContainer
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.TextWithBorder
+{
+    width: 40%;
+    text-align: left;
+    border: 1px solid black;
+}
+.TextWithBorder h2
+{
+    color: #E6A634;
+    text-shadow: 1px 1px #FFD486;
+    text-align: center;
+    font-size: 200%;
+}
+.TextWithBorder p
+{
+    color: #E6A634;
+    text-align: center;
+    font-size: 100%;
+}
+.TextWithBorder ul
+{
+    width: 70%;
+    margin: auto;
+}
+.TextWithBorder li
+{
+
+    color: #E6C834;
+    font-size: 140%;
+    padding-bottom: 2em;
+}
+.TextWithBorder li a:link { color: #C38514; }
+.TextWithBorder li a:visited { color: #C38514; }
+.TextWithBorder li a:hover{ color: #FFD486; }
+
+.Text
+{
+    width: 40%;
+    text-align: left;
+}
+.Text h2
+{
+    color: #E6A634;
+    text-shadow: 1px 1px #FFD486;
+    text-align: center;
+    font-size: 200%;
+}
+.Text ul
+{
+    width: 70%;
+    margin: auto;
+}
+.Text li
+{
+
+    color: #E6C834;
+    font-size: 140%;
+    padding-bottom: 2em;
+}
+
+table
+{
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+caption
+{
+    color: #E6A634;
+    text-shadow: 1px 1px #FFD486;
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 1em;
+}
+th
+{
+    color: #E6A634;
+    font-size: 160%;
+    text-shadow: 1px 1px #FFD486;
+    font-weight: bold;
+    padding: 0.5em;
+    border: 2px solid black;
+}
+td
+{
+    color: #E6C834;
+    text-align: center;
+    font-size: 140%;
+    padding: 0.5em;
+    border: 2px solid black;
+}
+
+form
+{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: auto;
+    grid-template-columns: 6em 1fr;
+    padding: 2em;
+}
+form label
+{
+    color: #E6A634;
+    text-align: center;
+    font-size: 100%;
+}
+input[type="submit"]
+{
+    grid-row: auto;
+    grid-column: 2 / 3;
+    width: 9em;
+}
+
+footer 
+{
+    font-size: 75%;
+    text-align: center; 
+    font-style: italic;
+    padding: 4em; 
+    
+}

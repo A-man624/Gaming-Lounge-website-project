@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>InTheZone Gaming/Esports Lounge</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+
+        <meta name="description" content="Allows one to schedule an event at InTheZone.">
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1><a href="index.html">InTheZone Gaming/Esports Lounge</a></h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="GettingITZ.html">Getting In The Zone</a></li>
+                    <li><a href="Games.html">Games</a></li>
+                    <li><a href="Esports.html">What is Esports?</a></li>
+                    <li><a href="Events.html">Events</a></li>
+                    <li><a href="Information.html">Information</a></li>
+                </ul>
+            </nav>
+            <div id="BackgroundImage">
+                Schedule an<br>
+                Event with us
+            </div>
+            <main>
+                <div class="ImagesContainer">
+                    <div class="Image"><img src="3_People_Gaming.PNG" alt="Events Image 1"></div>
+                    <div class="Image"><img src="Neon_Calender.PNG" alt="Events Image 2"></div>
+                    <div class="Image"><img src="Gaming_Party_Sign.PNG" alt="Events Image 3"></div>
+                </div>
+
+                <div class="TextContainer">
+                    <div class="TextWithBorder">
+                        <h2>Schedule your Event today!</h2>
+                        <p>Required fields are marked with an asterik *</p>
+
+                        <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+                            <label for="FirstName">* First Name:</label>
+                            <input type="text" id="FirstName" name="FirstName" required="required">
+
+                            <label for="LastName">* Last Name:</label>
+                            <input type="text" id="LastName" name="LastName" required="required">
+
+                            <label for="Email">* Email:</label>
+                            <input type="email" id="Email" name="Email" required="required">
+
+                            <label for="EventDate">* Event Date:</label>
+                            <input type="date" id="EventDate" name="EventDate" required="required">
+
+                            <label for="StartTime">* Start Time:</label>
+                            <input type="time" id="StartTime" name="StartTime" required="required">
+
+                            <label for="EndTime">* End Time:</label>
+                            <input type="time" id="EndTime" name="EndTime" required="required">
+
+                            <label for="EventName">* Name of Event:</label>
+                            <input type="text" id="EventName" name="EventName" required="required">
+                            
+                            <label for="EventReason">Reason for Event:</label>
+                            <textarea id="EventReason" name="EventReason" rows="2" cols="30"></textarea>
+
+                            <label for="AdditionalComments">Additional Comments:</label>
+                            <textarea id="AdditionalComments" name="AdditionalComments" rows="2" cols="30"></textarea>
+                            
+                            <input type="submit">
+                        </form>
+                    </div>
+                </div>
+
+            </main>
+            <footer>
+                Copyright &copy; 2021 InTheZone<br>
+                <a href="mailto:armart71@asu.edu">armart71@asu.edu</a>
+            </footer>
+        </div>
+    </body>
+</html>
